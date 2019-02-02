@@ -103,6 +103,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		40C5A0FA2205CE0F001A68FE /* sections */ = {
+			isa = PBXGroup;
+			children = (
+				40C5A0FB2205CE19001A68FE /* appDelegate */,
+			);
+			path = sections;
+			sourceTree = "<group>";
+		};
+		40C5A0FB2205CE19001A68FE /* appDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				40C83A052205C45D0009AA05 /* AppDelegate.h */,
+				40C83A062205C45D0009AA05 /* AppDelegate.m */,
+			);
+			path = appDelegate;
+			sourceTree = "<group>";
+		};
 		40C839F92205C45D0009AA05 = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +145,7 @@
 		40C83A042205C45D0009AA05 /* oc_workSpace */ = {
 			isa = PBXGroup;
 			children = (
-				40C83A052205C45D0009AA05 /* AppDelegate.h */,
-				40C83A062205C45D0009AA05 /* AppDelegate.m */,
+				40C5A0FA2205CE0F001A68FE /* sections */,
 				40C83A082205C45D0009AA05 /* ViewController.h */,
 				40C83A092205C45D0009AA05 /* ViewController.m */,
 				40C83A0B2205C45D0009AA05 /* Main.storyboard */,
