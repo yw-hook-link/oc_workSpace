@@ -8,7 +8,13 @@ target 'oc_workSpace' do
   # Pods for oc_workSpace
 
 
+#布局
 pod 'Masonry', '0.6.4'
+#method Swizzling(函数替换)
+pod 'Aspects'
+#日志框架  (类似：log4j)
+pod 'CocoaLumberjack'
+
 
 
   target 'oc_workSpaceTests' do
