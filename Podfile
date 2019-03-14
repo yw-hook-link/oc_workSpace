@@ -16,6 +16,11 @@ pod 'Aspects'
 pod 'CocoaLumberjack'
 
 
+pod 'Masonry'
+pod 'UITableView+FDTemplateLayoutCell'
+
+
+
 
   target 'oc_workSpaceTests' do
     inherit! :search_paths
